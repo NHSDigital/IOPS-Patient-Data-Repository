@@ -1,0 +1,45 @@
+{
+    "resourceType": "Observation",
+    "id": "DHC-Observation-cholesterol-ratio-Example",
+    "text": {
+        "status": "generated",
+        "div": "div-narrative"
+    },
+    "subject": {
+        "reference": "Patient/123",
+        "type": "Patient",
+        "display": "Mr/Mrs Patient Name"
+    },
+    "encounter": {
+        "reference": "Encounter/enc-1122",
+        "type": "Encounter"
+    },
+    "code": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "1028551000000102",
+                "display": "Total cholesterol:HDL (high density lipoprotein) ratio"
+            }
+        ],
+        "text": "Total cholesterol to high lipoprotein ratio"
+    },
+    "valueQuantity": {
+        "value": 5.8,
+        "unit": "1/1"
+    },
+    "effectiveDateTime": "2024-07-17T12:12:59+01:00",
+    "status": "final",
+    "category": [
+        {
+            "coding": [
+                {
+                    "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                    "code": "laboratory",
+                    "display": "Laboratory result for Cholesterol"
+                }
+            ],
+            "text": "Laboratory - Total Cholesterol, HDL, Non-HDL and Cholesterol to HDL ratio"
+        }
+    ]
+}
